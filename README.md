@@ -1,0 +1,1 @@
+this is a project based on the semana omnistack 11th edition, with the backend, frontend and mobile.
