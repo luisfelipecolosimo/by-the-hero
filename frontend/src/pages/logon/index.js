@@ -19,7 +19,7 @@ export default function Logon(){
                     <input type="text"/>
                     <button className="button" type="submit">Entrar</button>
 
-                    <Link to="/register">
+                    <Link className='back-link' to="/register">
                         <FiLogIn size={16} color="#e02041"/>
                         Não tenho uma conta
                     </Link>
