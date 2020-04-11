@@ -65,7 +65,7 @@ export default function Register() {
           <input
             value={whatsapp}
             onChange={(e) => setWhatsapp(e.target.value)}
-            placeholder="WhatsApp da ong"
+            placeholder="WhatsApp da ong (com o codigo do pais sem '+' )"
           />
           <div className="input-group">
             <input
