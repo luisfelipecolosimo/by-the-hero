@@ -86,3 +86,19 @@
     line-height: 21px;
     font-size: 16px;
 }
+
+@media (max-width: 514px) {
+    .button{
+        font-size: 1em;
+    }
+    .profile-container header span {
+        width: 40vw;
+        font-size: 1em;
+    }
+    .profile-container header a {
+        width: 40vw;
+    }
+    .profile-container header button {
+        width: 20vw;
+    }
+}

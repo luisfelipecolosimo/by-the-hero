@@ -69,11 +69,13 @@ export default function Register() {
           />
           <div className="input-group">
             <input
+            className="cidade"
               value={city}
               onChange={(e) => setCity(e.target.value)}
               placeholder="Cidade"
             />
             <input
+            className='uf'
               value={uf}
               onChange={(e) => setUf(e.target.value)}
               placeholder="uf"

@@ -54,3 +54,68 @@
 .register-container .content form .input-group input + input{
     margin-left: 8px;
 }
+
+@media (max-width: 1000px) {
+    .content{
+        flex-direction: column;
+    }
+    #logo {
+        display: none;
+    }
+    .register-container {
+        margin: 0 ;
+        justify-content: center;
+    }
+    .register-container .content section.form {
+        margin-right: 0;
+    }
+}
+
+
+
+@media (max-width: 385px){
+    html, body, div{
+        width: 100vw;
+        margin: 0;
+        margin-right: 0 !important;
+    }
+
+    #logo{
+        width: 80vw;
+    }
+
+    .register-container .content form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+    .cidade{
+        max-width: 65vw;
+    }
+
+    .uf{
+        width: 10vw;
+    }
+    .register-container .content form .input-group {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 229px){
+    #logo{
+        width: 80vw;
+    }
+
+    .register-container .content section.form form h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 215px){
+    .register-container .content section.form form a{
+        font-size: 14px;
+    }
+}
