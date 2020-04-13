@@ -1,1 +1,1 @@
-this is the mobile base.
+this is the mobile part of the project, it was created in react native, in this application, a person can enter, see requests and if they want to help, contact the NGOs by email or whatsapp.
